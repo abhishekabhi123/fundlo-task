@@ -1,0 +1,17 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: #ecf2ff;
+}
+.forms {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  text-align: center;
+  padding: 32rem;
+  margin-top: 4rem;
+}

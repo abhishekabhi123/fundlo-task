@@ -1,0 +1,109 @@
+:root {
+  --primary: #0091ff;
+  --dark: #061b28;
+  --gray: #756388;
+  --light: #ffffff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 236, 238);
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainDiv {
+  background-color: rgb(80, 98, 255);
+}
+.container {
+  background-color: white;
+  padding: 1rem 3rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  border-top: rgb(80, 98, 255) 0.5rem solid;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: rgb(80, 98, 255);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(80, 98, 255);
+}
+
+.private {
+  background-color: rgb(80, 98, 255);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 3rem;
+  gap: 1rem;
+  height: 100%;
+  padding-top: 5rem;
+  margin-top: -4rem;
+  /* overflow-y: hidden; */
+}
+
+.Container {
+  display: flex;
+  margin-top: -4rem;
+}
+
+.cards {
+  margin-left: 4rem;
+  width: 20rem;
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  width: 15rem;
+  height: 15rem;
+}
+.card-image {
+  margin-left: 2.5rem;
+  width: 15rem;
+  height: 15rem;
+}

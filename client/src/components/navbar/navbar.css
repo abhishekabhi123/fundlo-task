@@ -1,0 +1,11 @@
+.main-nav {
+  background-color: rgb(80, 98, 255);
+  height: 2rem;
+  /* width: 120% !important;     */
+  display: block;
+  display: inline-block;
+}
+
+.nav {
+  width: 100%;
+}
